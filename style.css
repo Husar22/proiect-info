@@ -1,0 +1,128 @@
+
+header{
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+nav{
+    display:flex;
+    gap: 25px;
+}
+
+nav a{
+
+    color: aliceblue;
+    text-decoration: none;
+}
+.fundal{
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+    url("traseu.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e1dada ;
+}
+.desre-poza{
+    flex: 0 1 420px;
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+    border: 2px solid #e1dada;
+    border-radius: 8px;
+}
+.despre-poza img{
+    display: block;
+    width: calc(50% - 6px);
+    height: auto;
+    border-radius: 4px;
+}
+.preturi-home{
+    padding: 48px;
+    text-align: center;
+}
+.preturi-rand{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.pret-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #444;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+}
+.card-sus{
+    flex: 1;
+    padding: 24px;
+}
+.card-jos{
+    background: #e1dada;
+    color: #121212;
+    padding: 20px;
+    border-top: 2px solid #444;
+}
+.pret{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 12px;
+}
+.contact-section{
+    max-width: 620px;
+    margin: 48px auto;
+    padding: 32px;
+    box-sizing: border-box;
+}
+.contact-section h1,
+.contact-section > p{
+    text-align: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-form label{
+    font-weight: bold;
+    margin-top: 8px;
+}
+.contact-form input,
+.contact-form textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #777;
+    border-radius: 6px;
+    font: inherit;
+}
+.contact-form button{
+    margin-top: 12px;
+    padding: 12px 20px;
+    border: 0;
+    border-radius: 6px;
+    background: #121212;
+    color: white;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contact-form button:hover{
+    background: #444;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #121212;
+    color: #e1dada;
+}
